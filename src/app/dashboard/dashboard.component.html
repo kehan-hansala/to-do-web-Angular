@@ -72,7 +72,7 @@
           background: -webkit-linear-gradient(137deg,#f6f2f2 0%, #fed3d3 80%);
           background: -moz-linear-gradient(137deg,#f6f2f2 0%, #fed3d3 80%);
       "*ngFor="let task of tasks let i = index">
-        <div class="card-header fs-4 text-primary">task {{i + 1}}</div>
+        <div class="card-header fs-4 text-primary">Task-{{i + 1}}</div>
         <div class="card-body text-success">
           <h5 class="card-title fs-3 ">{{task.title}}</h5>
           <p class="card-text text-info">{{task.description}}</p>
